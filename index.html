@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuta Okkotsu Bot - Panel de Comandos</title>
+    <style>
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border: 1px solid #1f2833;
+            padding: 25px;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #0b0c10, #1f2833);
+            box-shadow: 0 4px 20px rgba(71, 243, 255, 0.15);
+            width: 100%;
+            max-width: 650px;
+        }
+        h1 { 
+            color: #66fcf1; 
+            margin: 0 0 10px 0; 
+            font-size: 26px; 
+            letter-spacing: 2px;
+        }
+        .links-box {
+            background: #11141a;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 650px;
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px dashed #66fcf1;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .btn-link {
+            background: #1f2833;
+            color: #66fcf1;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #1f2833;
+            transition: 0.3s;
+        }
+        .btn-link:hover {
+            background: #66fcf1;
+            color: #0b0c10;
+            box-shadow: 0 0 10px rgba(102, 252, 241, 0.5);
+        }
+        .category-box {
+            background: #1f2833;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 650px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border: 1px solid #1f2833;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .category-title {
+            background: #0b0c10;
+            padding: 12px 20px;
+            font-weight: bold;
+            color: #66fcf1;
+            border-bottom: 1px solid #1f2833;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .command-list {
+            padding: 15px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 10px;
+        }
+        .command-item {
+            background: #0b0c10;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid #1f2833;
+            transition: 0.2s;
+        }
+        .command-item:hover {
+            border-color: #66fcf1;
+            background: #1f2833;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #45a29e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>⚔️ YUTA OKKOTSU BOT ⚔️</h1>
+        <p>Panel Oficial de Comandos e Información General</p>
+    </div>
+
+    <!-- SECCIÓN DE ENLACES ESPECIALES -->
+    <div class="links-box">
+        <a href="https://evogb.org" target="_blank" class="btn-link">🌐 Web Principal</a>
+        <a href="#" target="_blank" class="btn-link">💬 Grupo de Soporte</a>
+        <a href="#" target="_blank" class="btn-link">📢 Canal Oficial</a>
+        <a href="#" target="_blank" class="btn-link">👑 Creador</a>
+    </div>
+
+    <!-- SECTOR IA -->
+    <div class="category-box">
+        <div class="category-title">🔮 SECTOR │ INTELIGENCIA ARTIFICIAL</div>
+        <div class="command-list">
+            <div class="command-item">#chatgpt</div>
+            <div class="command-item">#gemini</div>
+            <div class="command-item">#claude</div>
+            <div class="command-item">#deepseek</div>
+            <div class="command-item">#llama</div>
+            <div class="command-item">#grok</div>
+        </div>
+    </div>
+
+    <!-- SECTOR STICKERS -->
+    <div class="category-box">
+        <div class="category-title">🎭 SECTOR │ STICKERS</div>
+        <div class="command-list">
+            <div class="command-item">#sticker</div>
+            <div class="command-item">#s</div>
+            <div class="command-item">#newpack</div>
+            <div class="command-item">#delpack</div>
+            <div class="command-item">#packlist</div>
+            <div class="command-item">#setmeta</div>
+        </div>
+    </div>
+
+    <!-- SECTOR GACHA -->
+    <div class="category-box">
+        <div class="category-title">🎮 SECTOR │ GACHA</div>
+        <div class="command-list">
+            <div class="command-item">#roll</div>
+            <div class="command-item">#claim</div>
+            <div class="command-item">#harem</div>
+            <div class="command-item">#sell</div>
+            <div class="command-item">#trade</div>
+            <div class="command-item">#wtop</div>
+        </div>
+    </div>
+
+    <footer>
+        Powered by DuarteXV | Yuta Okkotsu Bot
+    </footer>
+
+</body>
+  </html>
+  
