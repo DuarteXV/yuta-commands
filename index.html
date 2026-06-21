@@ -15,16 +15,25 @@
             flex-direction: column;
             align-items: center;
         }
+        .banner-img {
+            width: 100%;
+            max-width: 650px;
+            border-radius: 15px 15px 0 0;
+            border: 1px solid #1f2833;
+            border-bottom: none;
+            display: block;
+        }
         .header {
             text-align: center;
             margin-bottom: 25px;
             border: 1px solid #1f2833;
             padding: 25px;
-            border-radius: 15px;
+            border-radius: 0 0 15px 15px;
             background: linear-gradient(145deg, #0b0c10, #1f2833);
             box-shadow: 0 4px 20px rgba(71, 243, 255, 0.15);
             width: 100%;
             max-width: 650px;
+            box-sizing: border-box;
         }
         h1 { 
             color: #66fcf1; 
@@ -113,6 +122,8 @@
 </head>
 <body>
 
+    <img src="https://cdn.dix.lat/me/b2487cce-2553-4500-ad24-8907d0546702.jpg" alt="Yuta Banner" class="banner-img">
+
     <div class="header">
         <h1>⚔️ YUTA OKKOTSU BOT ⚔️</h1>
         <p>Panel Oficial de Comandos e Información General</p>
@@ -120,99 +131,90 @@
 
     <div class="links-box">
         <a href="https://api.alyacore.xyz" target="_blank" class="btn-link">🌐 API Alyacore</a>
-        <a href="https://chat.whatsapp.com/BnKy5bQKQnM0JYcRIhokfh" target="_blank" class="btn-link">💬 Grupo Soporte 1</a>
-        <a href="https://chat.whatsapp.com/Li1eYDeWei0BMqXV2lGeKi" target="_blank" class="btn-link">💬 Grupo Soporte 2</a>
+        <a href="https://chat.whatsapp.com/BnKy5bQKQnM0JYcRIhokfh" target="_blank" class="btn-link">👥 Comunidad</a>
+        <a href="https://chat.whatsapp.com/Li1eYDeWei0BMqXV2lGeKi" target="_blank" class="btn-link">💬 Grupo Soporte</a>
         <a href="https://whatsapp.com/channel/0029Vb73g1r1NCrTbefbFQ2T" target="_blank" class="btn-link">📢 Canal Oficial</a>
         <a href="https://wa.me/573135180876" target="_blank" class="btn-link">👑 Creador</a>
     </div>
 
-    <!-- SECTOR GRUPOS -->
     <div class="category-box">
         <div class="category-title">💎 SECTOR │ GRUPOS</div>
         <div class="command-list">
-            <div class="command-item">.cerrar</div>
-            <div class="command-item">.demote</div>
-            <div class="command-item">.join</div>
-            <div class="command-item">.kick</div>
-            <div class="command-item">.linkgc</div>
-            <div class="command-item">.abrir</div>
-            <div class="command-item">.promote</div>
-            <div class="command-item">.tag</div>
-            <div class="command-item">.tagall</div>
-            <div class="command-item">.warn</div>
-            <div class="command-item">.listwarn</div>
-            <div class="command-item">.delwarn</div>
-            <div class="command-item">.setprimary</div>
-            <div class="command-item">.delprimary</div>
-            <div class="command-item">.del</div>
+            <div class="command-item">cerrar</div>
+            <div class="command-item">demote</div>
+            <div class="command-item">join</div>
+            <div class="command-item">kick</div>
+            <div class="command-item">linkgc</div>
+            <div class="command-item">abrir</div>
+            <div class="command-item">promote</div>
+            <div class="command-item">tag</div>
+            <div class="command-item">tagall</div>
+            <div class="command-item">warn</div>
+            <div class="command-item">listwarn</div>
+            <div class="command-item">delwarn</div>
+            <div class="command-item">setprimary</div>
+            <div class="command-item">delprimary</div>
+            <div class="command-item">del</div>
         </div>
     </div>
 
-    <!-- SECTOR INFO -->
     <div class="category-box">
         <div class="category-title">🔮 SECTOR │ INFO</div>
         <div class="command-list">
-            <div class="command-item">.uinfo</div>
-            <div class="command-item">.system</div>
-            <div class="command-item">.menu</div>
+            <div class="command-item">uinfo</div>
+            <div class="command-item">system</div>
+            <div class="command-item">menu</div>
         </div>
     </div>
 
-    <!-- SECTOR UTILS -->
     <div class="category-box">
         <div class="category-title">🛠️ SECTOR │ UTILS</div>
         <div class="command-list">
-            <div class="command-item">.ping</div>
-            <div class="command-item">.cdn</div>
+            <div class="command-item">ping</div>
+            <div class="command-item">cdn</div>
         </div>
     </div>
 
-    <!-- SECTOR SOCKETS -->
     <div class="category-box">
         <div class="category-title">🛰️ SECTOR │ SOCKETS</div>
         <div class="command-list">
-            <div class="command-item">.bots</div>
-            <div class="command-item">.code</div>
-            <div class="command-item">.delbot</div>
+            <div class="command-item">bots</div>
+            <div class="command-item">code</div>
+            <div class="command-item">delbot</div>
         </div>
     </div>
 
-    <!-- SECTOR STICKERS -->
     <div class="category-box">
         <div class="category-title">🎭 SECTOR │ STICKERS</div>
         <div class="command-list">
-            <div class="command-item">.s</div>
-            <div class="command-item">.setmeta</div>
-            <div class="command-item">.delmeta</div>
+            <div class="command-item">s</div>
+            <div class="command-item">setmeta</div>
+            <div class="command-item">delmeta</div>
         </div>
     </div>
 
-    <!-- SECTOR DL -->
     <div class="category-box">
         <div class="category-title">🪐 SECTOR │ DL</div>
         <div class="command-list">
-            <div class="command-item">.play</div>
-            <div class="command-item">.play2</div>
-            <div class="command-item">.scdl</div>
-            <div class="command-item">.scsearch</div>
-            <div class="command-item">.pinterest</div>
+            <div class="command-item">play</div>
+            <div class="command-item">play2</div>
+            <div class="command-item">scdl</div>
+            <div class="command-item">scsearch</div>
+            <div class="command-item">pinterest</div>
         </div>
     </div>
 
-    <!-- SECTOR MISC -->
     <div class="category-box">
         <div class="category-title">⚜️ SECTOR │ MISC</div>
         <div class="command-list">
-            <div class="command-item">.anime</div>
-            <div class="command-item">.fetch</div>
+            <div class="command-item">anime</div>
+            <div class="command-item">fetch</div>
         </div>
     </div>
 
     <footer>
-        🪼 Powered by DuarteXV | ⚔️ Yuta Okkotsu Bot ⚔️<br>
-        🔗 https://api.alyacore.xyz
+        🪼 Powered by DuarteXV | ⚔️ Yuta Okkotsu Bot ⚔️
     </footer>
 
 </body>
-            </html>
-        
+</html>
